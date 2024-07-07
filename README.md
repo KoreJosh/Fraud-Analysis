@@ -17,8 +17,11 @@ The data, haven been saved as an excel document was open using Microsoft Excel a
 ![](https://github.com/KoreJosh/Fraudulent-Transactions-Analysis/blob/main/fraud0.png)
 
 Using conditional formatting the time of transaction was sorted into 'Moring', 'Afternoon', "Evening', 'Night'.
-Duplicated values and nulls values were deleted .
+
+Duplicated values and nulls values were deleted.
+
 The date columns were duplicated twice to generate the month and year varibles separetely.
+
 Checked if the data columns were in the right type (date was in the datetime format, transaction type is in the string fprmat, transacton amount in the number format)
 
 # Dashboard Overview
