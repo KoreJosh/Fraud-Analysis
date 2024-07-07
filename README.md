@@ -1,9 +1,19 @@
 # Fraudulent Transactions Analysis
 ![](https://github.com/KoreJosh/Fraudulent-Transactions-Analysis/blob/main/fraud1.jpg)
 
-Fraudulent Transaction Analysis Documentation
-Introduction
+
+# Introduction
 The following documentation provides a detailed analysis of fraudulent transactions for the year 2023-2024. This analysis aims to identify trends, patterns, and insights into the types and volumes of fraudulent activities, helping financial institutions and businesses enhance their fraud detection and prevention mechanisms.
+
+# Data Collection 
+The data was sourced using chatgpt to prompt a fraudulent transaction data, which required adquate cleaning and preprocessing.
+Therefore the data was prepared using a python code and saved locally.
+
+# Data Cleaning and processing
+The data, haven been saved as an excel document was open using Microsoft Excel and transformed using power query.
+Using conditional formatting the time of transaction was sorted into 'Moring', 'Afternoon', "Evening', 'Night'.
+Duplicated values and nulls values were deleted .
+The date columns were duplicated twice to generate the month and year varibles separetely.
 
 Dashboard Overview
 The Fraud Transaction Dashboard visualizes data related to fraudulent transactions across various dimensions, including transaction type, merchant, location, and time. The dashboard components are as follows:
