@@ -10,6 +10,7 @@ The data was sourced using chatgpt to prompt a fraudulent transaction data, whic
 Therefore the data was prepared using a python code and saved locally.
 
 # Data Cleaning and processing
+
 ![](https://github.com/KoreJosh/Fraudulent-Transactions-Analysis/blob/main/fraud1.png)
 
 The data, haven been saved as an excel document was open using Microsoft Excel and transformed using power query.
@@ -22,9 +23,11 @@ Duplicated values and nulls values were deleted.
 
 The date columns were duplicated twice to generate the month and year varibles separetely.
 
-Checked if the data columns were in the right type (date was in the datetime format, transaction type is in the string fprmat, transacton amount in the number format)
+Checked if the data columns were in the right type (date was in the datetime format, transaction type is in the string fprmat, transacton amount in the number format).
+
 
 # Dashboard Overview
+
 ![](https://github.com/KoreJosh/Fraudulent-Transactions-Analysis/blob/main/Fraud.png)
 
 The Fraud Transaction Dashboard visualizes data related to fraudulent transactions across various dimensions, including transaction type, merchant, location, and time. The dashboard components are as follows:
